@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "poppins";
+    src: url(./assets/PoppinsRubik/Poppins/Poppins-Black.ttf);
+  }
+  @font-face {
+    font-family: "rubik";
+    src: url(./assets/PoppinsRubik/Rubik/static/Rubik-Black.ttf);
+  }
+}
