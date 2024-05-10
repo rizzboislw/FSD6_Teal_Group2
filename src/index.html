@@ -10,12 +10,12 @@
 
 <body class="flex flex-col w-full" >
         <!-- Header -->
-        <header class=" w-full h-[960px] bg-gradient-to-r from-[#FFFBF4] from-100% to-[#F7FCF9] to-100% max-[768px]:h-[1150px] max-[768px]:mb-[5%]">
-          <nav class="h-[140px] w-full flex flex-row justify-around items-center max-[768px]:justify-between">
+        <header class="header-main-container w-full h-[960px] bg-gradient-to-r from-[#FFFBF4] from-100% to-[#F7FCF9] to-100% max-[768px]:h-[1150px] max-[768px]:mb-[5%]">
+          <nav class="header-navbar h-[140px] w-full flex flex-row justify-around items-center max-[768px]:justify-between">
 
-              <div class="flex flex-row w-full justify-between items-center h-full pr-[10%] pl-[10%] ">
+              <div class="navbar-flex flex flex-row w-full justify-between items-center h-full pr-[10%] pl-[10%] ">
 
-                  <div class="flex flex-row justify-center gap-[7%] items-center w-[70%] h-full max-[768px]:justify-start ">
+                  <div class="left-navbar-menu flex flex-row justify-center gap-[7%] items-center w-[70%] h-full max-[768px]:justify-start ">
 
                       <svg width="131" height="74" viewBox="0 0 131 74" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[131px] h-full cursor-pointer" >
                           <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0439 69.2676L27.2881 73.3819L29.5272 69.2777C28.7993 69.3586 28.0715 69.4142 27.3487 69.4142C26.5905 69.4142 25.8122 69.3586 25.0439 69.2676ZM18.7663 57.7789L23.9926 67.3469C24.1796 67.3823 24.3767 67.4127 24.5637 67.4379C25.4937 67.5744 26.4389 67.6603 27.3538 67.6603C28.2686 67.6603 29.2189 67.5744 30.1489 67.4379C30.2904 67.4177 30.4319 67.3874 30.5785 67.3672L35.7997 57.8042C35.5116 57.8396 35.2185 57.8598 34.8899 57.8598C32.6458 57.8598 31.4529 56.9298 30.2702 55.9947C29.4665 55.373 28.6629 54.7412 27.3639 54.7412C26.0649 54.7412 25.2663 55.373 24.4576 55.9947C23.2748 56.9298 22.082 57.8598 19.8378 57.8598C19.4486 57.8598 19.0999 57.8345 18.7663 57.7789Z" fill="#111116"/>
@@ -26,10 +26,10 @@
                           <path d="M115.918 34.0534H109.874V50.3301C109.874 55.685 106.958 58.4419 102.505 58.4419C98.1042 58.4419 95.1882 55.685 95.1882 50.3301V34.0534H89.1971V51.2314C89.1971 59.3963 94.3929 63.6908 101.232 63.6908C104.678 63.6908 107.966 62.2593 109.874 59.7674V63.2666H115.918V34.0534Z" fill="#111116"/>
                           <path d="M130.149 59.7674C130.149 57.5936 128.453 55.897 126.332 55.897C124.158 55.897 122.462 57.5936 122.462 59.7674C122.462 61.9412 124.158 63.6378 126.332 63.6378C128.453 63.6378 130.149 61.9412 130.149 59.7674Z" fill="#111116"/></svg>
 
-                      <div class="max-[768px]:hidden flex flex-row justify-start items-center gap-[10%] h-1/3 w-[70%] pl-[1%] flex-wrap justify-items-center content-center ">
-                          <h3 class="relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Home</h3>
-                          <h3 class="relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Admission</h3>
-                          <h3 class="relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Academic</h3>
+                      <div class="navbar-left-menu max-[768px]:hidden flex flex-row justify-start items-center gap-[10%] h-1/3 w-[70%] pl-[1%] flex-wrap justify-items-center content-center ">
+                          <h3 class="menu-home relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Home</h3>
+                          <h3 class="menu-admission relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Admission</h3>
+                          <h3 class="menu-academic relative font-medium text-lg w-fit block after:block after:content-[''] after:absolute after:h-[1px] after:bg-[#FFBE48] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center cursor-pointer hover:scale-[1.05] transition duration-100 ">Academic</h3>
                           
                       </div>
                   </div>
@@ -52,8 +52,8 @@
                   
                   <h1 class=" min-[768px]:w-[100%] min-[768px]:min-h-[95px] min-[768px]:leading-[95px] text-[90px] font-bold max-[768px]:text-[50px] max-[768px]:leading-[55px] max-[768px]:w-[60%]">Start Your Future Education</h1>
 
-                  <h3 class="min-[768px]:w-[90%] min-h-[4vw] h-max text-[18px] text-[#6F6F76] font-medium max-[768px]:w-[80%]">Credibly redefine distinctive total linkage vis-a-vis multifunc
-                  data. Phosfluorescently impact goal-oriented strategic</h3>
+                  <p class="min-[768px]:w-[90%] min-h-[4vw] h-max text-[18px] text-[#6F6F76] font-medium max-[768px]:w-[80%]">Credibly redefine distinctive total linkage vis-a-vis multifunc
+                  data. Phosfluorescently impact goal-oriented strategic</p>
 
                   <button class="w-[180px] h-[8%] bg-[#FFA502] text-lg text-white rounded-2xl font-medium shadow-[5px_5px_50px_-15px_#FFA502] hover:scale-[1.1] transition duration-200">Discover More</button>
                   </div>
@@ -148,9 +148,9 @@
       <!-- Logo -->
       <!-- P'Golf -->
       <section
-        class="logo-title-container w-full md:h-[342px] bg-white flex flex-col justify-center items-center gap-5">
-            <h1 class="font-bold text-[#111116] text-4xl">Trusted Companies</h1>
-            <div class="flex flex-col items-center md:flex-row" id="logo-img-container">
+        class="trusted-company-container w-full md:h-[342px] bg-white flex flex-col justify-center items-center gap-5">
+            <h1 class="font-bold text-[#111116] md:text-4xl text-2xl">Trusted Companies</h1>
+            <div class="flex flex-col items-center md:flex-row">
                 <img class="logo-img" src="./assets/logo_image/martoni.svg" alt="martoni logo" width="150"/>
                 <img class="logo-img" src="./assets/logo_image/real_estate.svg" alt="real estate logo" width="150"/>
                 <img class="logo-img" src="./assets/logo_image/promedia.svg" alt="promedia logo" width="150"/>
@@ -160,9 +160,9 @@
       </section>
       <!-- Help to Create-->
       <!-- P'Golf -->
-      <section class="advertise-1-container mt-5 flex flex-col gap-5 md:flex-row items-center justify-center md:justify-around h-full md:h-[600px] bg-white">
+      <section class="advertise-container mt-5 flex flex-col gap-5 md:flex-row items-center justify-center md:justify-around h-full md:h-[600px] bg-white">
             <img class="circle-img w-1/2 md:w-1/3" src="./assets/logo_image/2circle.svg" alt="two circles image"/>
-            <div class="advertise-1-text flex flex-col gap-5">
+            <div class="advertise-text flex flex-col gap-5">
                 <h1 class="font-bold text-[#111116] text-4xl">
                   We Help to Create<br>
                   Possibility & Success<br>
@@ -177,32 +177,29 @@
       >
         <div class="bg-[#FFFBF4] w-full md:w-[1720px] h-fit flex items-center pt-16 pb-16 md:pt-0 mt-32 mb-32 md:mb-0">
           <div
-            id="frame"
-            class="w-full flex flex-col gap-14 justify-center items-center md:pt-16"
+            class="department-container w-full flex flex-col gap-14 justify-center items-center md:pt-16"
           >
-            <div id="title" class="text-[40px] text-center text-neutral-900 font-bold ">
+            <div class="department-title text-[40px] text-center text-neutral-900 font-bold ">
               <h1>We have Most of</h1>
               <h1>Popular Departments</h1>
             </div>
-            <div id="container" class="flex flex-col md:flex-row justify-between items-center gap-7">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-7">
               <div
-                id="box item-1"
-                class="bg-white w-[355px] md:w-[453px] h-[512px] p-[30px] flex flex-col justify-between rounded-[20px] shadow-lg hover:bg-gray-50"
+                class="department-artificial-intelligence bg-white w-[355px] md:w-[453px] h-[512px] p-[30px] flex flex-col justify-between rounded-[20px] shadow-lg hover:bg-gray-50"
               >
                 <div
-                  id="pic"
                   class="w-[307px] md:w-[393px] h-[280px] rounded-t-[20px] bg-stone-300"
                 ></div>
 
                 <h2 class="text-neutral-700 text-[24px] font-bold">
                   Artificial Intelligence
                 </h2>
-                <p id="blog-font" class="text-zinc-500 text-[18px]">
+                <p class="department-text text-zinc-500 text-[18px]">
                   Assertively parallel task synergistic
                   <br />deliverables after high-quality.
                 </p>
                 <div class="flex flex-row justify-start gap-5 items-center">
-                  <p id="blog-font" class="text-amber-500 text-[16px]">Learn More</p>
+                  <p class="text-amber-500 text-[16px]">Learn More</p>
                   <svg
                     width="22"
                     height="14"
@@ -220,21 +217,19 @@
                 </div>
               </div>
               <div
-                id="box item-2"
-                class="bg-white w-[355px] md:w-[453px] h-[512px] p-[30px] flex flex-col justify-between rounded-[20px] shadow-lg hover:bg-gray-50"
+                class="department-civil-engineering bg-white w-[355px] md:w-[453px] h-[512px] p-[30px] flex flex-col justify-between rounded-[20px] shadow-lg hover:bg-gray-50"
               >
                 <div
-                  id="pic"
                   class="w-[307px] md:w-[393px] h-[280px] rounded-t-[20px] bg-stone-300"
                 ></div>
 
                 <h2 class="text-neutral-700 text-[24px] font-bold">Civil Engineering</h2>
-                <p id="blog-font" class="text-zinc-500 text-[18px]">
+                <p class="department-text text-zinc-500 text-[18px]">
                   Assertively parallel task synergistic
                   <br />deliverables after high-quality.
                 </p>
                 <div class="flex flex-row justify-start gap-5 items-center">
-                  <p id="blog-font" class="text-amber-500 text-[16px]">Learn More</p>
+                  <p class="text-amber-500 text-[16px]">Learn More</p>
                   <svg
                     width="22"
                     height="14"
@@ -252,21 +247,20 @@
                 </div>
               </div>
               <div
-                id="box item-3"
+                id="department-business-studie"
                 class="bg-white w-[355px] md:w-[453px] h-[512px] p-[30px] flex flex-col justify-between rounded-[20px] shadow-lg hover:bg-gray-50"
               >
                 <div
-                  id="pic"
                   class="w-[307px] md:w-[393px] h-[280px] rounded-t-[20px] bg-stone-300"
                 ></div>
 
                 <h2 class="text-neutral-700 text-[24px] font-bold">Business Studies</h2>
-                <p id="blog-font" class="text-zinc-500 text-[18px]">
+                <p class="department-text text-zinc-500 text-[18px]">
                   Assertively parallel task synergistic
                   <br />deliverables after high-quality.
                 </p>
                 <div class="flex flex-row justify-start gap-5 items-center">
-                  <p id="blog-font" class="text-amber-500 text-[16px]">Learn More</p>
+                  <p class="text-amber-500 text-[16px]">Learn More</p>
                   <svg
                     width="22"
                     height="14"
@@ -298,11 +292,11 @@
      <section class="max-w-screen-2xl mx-auto">
       <!-- Ruj-->
       <div
-        class="flex flex-col items-start lg:pb-10 lg:flex-row justify-between lg:items-center max-w-screen-2xl mx-auto pb-28 px-10"
+        class="teacher-container flex flex-col items-start lg:pb-10 lg:flex-row justify-between lg:items-center max-w-screen-2xl mx-auto pb-28 px-10"
       >
         <div>
           <h1 class="text-[40px] text-[#111116] font-[700]">
-            Intriduce with Our
+            Introduce with Our
           </h1>
           <h1 class="text-[40px] text-[#111116] font-[700]">
             Famous Teacher
@@ -421,9 +415,9 @@
 
     <!-- Tertimonial-->
     <section
-      class="flex flex-col-reverse lg:flex-row py-72 justify-center items-center gap-32 max-w-screen-2xl mx-auto"
+      class="flex flex-col-reverse lg:flex-row py-72 justify-center items-center gap-32 max-w-screen-2xl mx-auto border border-black"
     >
-      <div class="w-[90%] lg:w-[30%] h-[344px] relative ">
+      <div class="w-[90%] lg:w-[30%] h-[344px] relative border border-black ">
         <div
           class="absolute w-[100%] h-fit lg:bottom-32 right-0 lg:w-[695px] lg:h-full z-10 flex flex-col gap-4 rounded-[18px] p-10 bg-[#FFA502] shadow-lg shadow-[#FFA50266]"
         >
@@ -475,7 +469,7 @@
         </div>
 
         <div
-          class="absolute w-[100%] right-0 top-40 lg:right-32 lg:top-0 lg:w-[695px] h-full flex flex-col gap-4 rounded-[18px] p-10 bg-[#ffffff] shadow-md shadow-[#dddddd]"
+          class="absolute w-[100%] h-fit right-0 top-40 lg:right-32 lg:top-0 lg:w-[695px] lg:h-full flex flex-col gap-4 rounded-[18px] p-10 bg-[#ffffff] shadow-md shadow-[#dddddd]"
         >
           <div class="flex justify-between items-center">
             <div class="flex items-center gap-3">
@@ -524,7 +518,7 @@
           </p>
         </div>
         <div
-          class="absolute right-0 -bottom-20 lg:bottom-10 flex items-center gap-5 z-20"
+          class="absolute right-0 -bottom-[30%] lg:bottom-10 flex items-center gap-5 z-20"
         >
           <button
             class="w-[32px] h-[32px] lg:w-[56px] lg:h-[56px] flex justify-center items-center rounded-full border border-black"
@@ -561,11 +555,11 @@
       
             <!-- CTA -->
             <section
-            class="w-full md:h-[515px] h-[303px] bg-white flex flex-col justify-end"
+            class="cta-container w-full md:h-[515px] h-[303px] bg-white flex flex-col justify-end"
           >
             <!-- Wi -->
             <div
-              class="w-full px-6 md:px-4 h-[262px] md:h-[250px] bg-[#2A2A31] flex items-center justify-center"
+              class="register-container w-full px-6 md:px-4 h-[262px] md:h-[250px] bg-[#2A2A31] flex items-center justify-center"
             >
               <div class="w-[1420px] flex justify-between items-center relative">
                 <div
@@ -626,7 +620,7 @@
     >
       <!-- Wi -->
       <div
-        class="max-w-[1420px] min-w-0 w-full md:h-[262px] flex flex-col gap-6 md:flex-row md:justify-between text-[#B3B3B3] font-normal"
+        class="footer-menu max-w-[1420px] min-w-0 w-full md:h-[262px] flex flex-col gap-6 md:flex-row md:justify-between text-[#B3B3B3] font-normal"
       >
         <div>
           <svg
